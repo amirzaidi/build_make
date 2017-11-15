@@ -109,9 +109,7 @@ full_classes_compiled_jar_leaf := classes-full-debug.jar
 built_dex_intermediate_leaf := with-local
 endif
 
-ifeq ($(LOCAL_PROGUARD_ENABLED),disabled)
 LOCAL_PROGUARD_ENABLED :=
-endif
 
 full_classes_compiled_jar := $(intermediates.COMMON)/$(full_classes_compiled_jar_leaf)
 full_classes_desugar_jar := $(intermediates.COMMON)/classes-desugar.jar
